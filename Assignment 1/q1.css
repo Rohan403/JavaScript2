@@ -1,0 +1,44 @@
+.items a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    float: right;
+    margin-top: 10px;
+}
+a:hover{
+    color: aqua;
+}
+a:active{
+    color:blue;
+}
+.logo{
+    margin-top: 10px;
+    color:white;
+}
+.navbar{
+    background-color:black;
+}
+.para{
+    margin-top:100px;
+    box-sizing:border-box;
+    border:1px solid;
+    margin-left: 200px;
+    margin-right:200px;
+}
+.para1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+button{
+    width:100px;
+    background-color: blue;
+}
+.para img{
+    width:100%;
+    height: 400px;
+}
+span{
+    font-size: 30px;
+}
