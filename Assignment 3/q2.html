@@ -1,0 +1,39 @@
+<html>
+    <body>
+       
+        <link rel= "stylesheet" href="q2.css"/>
+        <div class="title">Calculator</div>
+        <table>
+            <tr>
+                <td colspan="3"><p id="result"></p></td>
+                <td><input type = "button" value="c" onclick="clearAll()"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value = "1" onclick="concatNumber('1')"/></td>
+                <td><input type="button" value = "2" onclick="concatNumber('2')"/></td>
+                <td><input type="button" value = "3" onclick ="concatNumber('3')"/></td>
+                <td><input type ="button" value = "/" onclick = "setOperator('/')"/></td>
+            </tr>
+            <tr>
+                <td><input type="button" value = "4" onclick="concatNumber('4')"/></td>
+                <td><input type="button" value = "5" onclick="concatNumber('5')"/></td>
+                <td><input type="button" value = "6" onclick ="concatNumber('6')"/></td>
+                <td><input type ="button" value = "+" onclick ="setOperator('+')"/></td>
+            </tr>
+            <tr>
+                <td><input type = "button" value = "8" onclick="concatNumber('8')"/></td>
+                <td><input type="button" value="9" onclick ="concatNumber('9')"/></td>
+                <td><input type = "button" value ="-" onclick ="setOperator('-')"/></td>
+                <td><input type = "button" value = "7" onclick="concatNumber('7')"/></td>
+            </tr>
+           
+            <tr>
+                <td><input type="button" value = "." onclick="concatNumber('.')"/></td>
+                <td><input type="button" value="0" onclick="concatNumber('0')"/></td>
+                <td><input type="button" value="=" onclick="equals()"/></td>
+                <td><input type="button" value="*" onclick="setOperator('*')"/></td>
+            </tr>
+        </table>
+        <script src="q2.js"></script>
+    </body>
+</html>
