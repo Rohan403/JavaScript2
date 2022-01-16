@@ -1,0 +1,57 @@
+
+    /* CSS Code */
+    /* Heading */
+    h1 {
+        color: rgb(8, 95, 226);
+        font-size: 45px;
+    }
+ 
+    /* 3*3 Grid */
+    #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+        width: 98px;
+        height: 60px;
+        margin: auto;
+        border: 3px solid rgba(82, 10, 100, 0.719);
+        background-color: rgb(230, 230, 230);
+        border-radius: 10px;
+        text-align: center;
+    }
+    #but {
+        box-sizing: border-box;
+        width: 95px;
+        height: 40px;
+        border: 1px solid chartreuse;
+        margin: auto;
+        border-radius: 4px;
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+        background-color: rgb(15, 129, 114);
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        cursor: pointer;
+    }
+ 
+    /* Player turn space */
+    #print {
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+ 
+        color: rebeccapurple;
+        font-size: 20px;
+    }
+ 
+    /* Main Container */
+    #main {
+        text-align: center;
+    }
+ 
+    /* Game Instruction Text */
+    #ins {
+        font-family: Verdana,
+            Geneva, Tahoma, sans-serif;
+             
+        color: dodgerblue;
+        font-size: 17px;
+    }
