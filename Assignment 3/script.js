@@ -18,6 +18,6 @@ spiralArray = function (edge) {
  
 // T E S T:
 arr = spiralArray(edge = 5);
-for (y= 0; y < edge; y++) document.write(arr[y].join(" "))
+for (y= 0; y < edge; y++) document.write(arr[y].join(""))
 for (y= 0; y < edge; y++) console.log(arr[y].join(" "))
 
