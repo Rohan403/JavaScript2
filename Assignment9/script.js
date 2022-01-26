@@ -5,7 +5,7 @@ fetch(url)
     for(var i=0 ; i<99 ; i++){
         var body = document.getElementById("body");
         var div = document.createElement("div");
-        var list = document.createElement("ol");
+        var list = document.createElement("ul");
         var  li = document.createElement("li");
         var li1 = document.createElement("li");
         var li2 = document.createElement("li");
